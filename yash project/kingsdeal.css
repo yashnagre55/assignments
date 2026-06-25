@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    width: 100%;
+    height:100%;
+}
+
+.first{
+    width: 100%;
+    height:150px;
+    text-align: center;
+    background-color:rgb(222, 174, 0);
+}
+.first h2{
+    color:aliceblue;
+}
+.choosebtn{
+    margin: 20px auto;
+    width: 300px;
+    /* height:50px;/ */
+    text-align: center;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    box-shadow: inset 2px 0px 2px 1px rgb(161, 152, 152);
+}
+.choosebtn .btn{
+    height: 50px;
+    width: 50%;
+    text-align: center;
+    font-size: 18px;
+    line-height: 16px;
+    border-radius: 30px;
+    align-content: center;
+}   
+.choosebtn #btn1:focus{
+    color:rgb(255, 255, 255);
+    background-color: rgb(247, 162, 35);
+}
+.choosebtn #btn2:focus{
+    color:rgb(255, 255, 255);
+    background-color: rgb(93, 53, 4);
+}
+.second{
+    position: relative;
+    width: 100%;
+    height:300px;
+    background-image: linear-gradient(to right,rgb(244, 241, 237),rgb(255, 194, 79));
+    padding-top:70px;
+    padding-left:100px;
+}
+.customBTN{
+
+    width: 100px;
+    background-color: white;
+    color:rgb(119, 57, 57);
+    border:none;
+    border-radius:30px;
+}
+.second h5{
+    position: absolute;
+    top:250px;
+    left:700px
+
+}
+.third{
+    padding:20px 0;
+    padding-left:48% ;
+
+}
+.square{
+    width:40px;
+    height:40px;
+    background-color:rgb(119, 57, 57) ;
+    border-radius:10%;
+    padding:7.5px;
+    
+} 
+ .circle{
+    text-align:center;
+    width:25px;
+    height:25px;
+    border-radius:50%;
+    background-color:white;
+} 
+.forth{
+    width:100%;
+    height:40rem;
+    background-color: rgb(166, 89, 12);
+    
+}
+.forth img{
+    width:80%;
+    height:40rem;
+    margin:0 10%;
+}
+.five{
+    text-align:center;
+}

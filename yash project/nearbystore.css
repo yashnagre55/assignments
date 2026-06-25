@@ -1,0 +1,59 @@
+*{
+    /* font-family: "DM Serif Display", serif; */
+    font-weight: 400;
+}
+body{
+    background-color: rgb(246, 240, 231) !important;
+}
+.customLocatorSearch{
+    padding: 1rem;
+}
+.customLocatorSearch input {
+    border-radius: 18px;
+
+}
+.customLocatorSearch #basic-addon2{
+    border-radius:0px 18px 18px 0px;
+    /* border:transparent; */
+    text-decoration: none;
+    color:rgb(120, 42, 16);
+}
+
+.btns {
+    display:flex;
+    justify-content: space-around;
+    
+}
+.btns a{
+    text-decoration: none;
+    color: rgb(113, 73, 30);
+    font-weight: 700;
+}
+.botton {
+    text-decoration: none;
+    color:rgb(70, 195, 51);
+}
+.card{
+    margin:1rem;
+    /* display: flex; */
+}
+.iconright{
+    color: rgb(113, 73, 30);
+    text-align:center;
+    position: absolute;
+    top:50px;
+    right:20px;   
+
+}
+.iconright div{
+    
+    font-size: 20px;
+    font-weight: 100;
+    width:35px;
+    height:35px;
+    margin:5px;
+    border-radius:50%;
+    box-shadow: 1px 1px 3px 1px;
+    cursor: pointer;
+
+}
